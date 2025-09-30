@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.python-version
+
+# Environment & secrets
+.env
+.env.*
+
+# Model artifacts
+deck_model.pkl
+*.pkl
+
+# Local data and reports
+ladder_only_matches.jsonl
+reports/
+*.log
+logs/
+
+# Build/test artifacts
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+.cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
