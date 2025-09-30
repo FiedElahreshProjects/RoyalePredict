@@ -236,7 +236,5 @@ Materialized views created by `db/materialized_views.sql`:
 - Windows venv paths → use `venv\Scripts\python`, `venv\Scripts\uvicorn`
 
 
-## License
-Internal/interview project; no license specified.
 
 
