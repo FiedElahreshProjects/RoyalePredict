@@ -13,6 +13,9 @@ A Clash Royale deck matchup prediction and analytics service. It exposes:
 - FastAPI service with endpoints for health, stats, matchups, and ML predictions
 - Admin endpoints to refresh materialized views and hot-reload the model bundle
 
+### Architecture
+<img width="1049" height="566" alt="Screenshot 2025-09-30 024013" src="https://github.com/user-attachments/assets/1fdabf6a-8043-49b3-ad8f-9aaf322c5720" />
+
 
 ## Project overview and performance
 
@@ -55,6 +58,8 @@ This will create PNGs under `reports/`:
 - `winrate_distribution.png` — distribution of deck winrates
 - `roc_curve.png` — ROC on a held-out test split (optional)
 - `calibration_curve.png` — probability calibration (optional)
+
+  
 
 You can drag-and-drop these into your README or GitHub release as needed.
 
